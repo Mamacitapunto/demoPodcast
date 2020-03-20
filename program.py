@@ -1,4 +1,3 @@
-# from service import *
 import service
 import random
 
@@ -26,7 +25,6 @@ def display_results():
         info = service.get_episode(show_id)
         print(show_id)
 
-        # print("{}".format(info))
         print("{}. {}".format(info.show_id, info.title))
 
 
