@@ -27,14 +27,9 @@ def download_info():
             episode_count - idx - 1
         )
         episode_data[episode.show_id] = episode
-        # print(episode.show_id)
-        # print('title')
 
 
-# def get_episode(show_id: int) -> Episode:
-def get_episode(show_id):
-    # return print(get_episode(show_id))
-    # return print(episode_data.get(show_id))
+def get_episode(show_id: int) -> Episode:
     return episode_data.get(show_id)
 
 
